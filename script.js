@@ -2,7 +2,7 @@
 //Vitor Encinas Negrão de Tulio
 
 // Lista de palavras para o jogo
-const words = ["javascript", "programacao", "computador", "desenvolvimento", "internet"];
+const words = ["javascript", "programacao", "computador", "desenvolvimento", "internet", "front", "professor", "utfpr", "cornelio", "frontend"];
 let wordToGuess = "";
 let guessedWord = [];
 let timeLeft = 45;
