@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+  }
+  
+  .game-container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #000;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  #guess {
+    padding: 5px;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+  }
+  
+  #message {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  

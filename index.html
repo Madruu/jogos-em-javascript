@@ -1,0 +1,28 @@
+<!--Gustavo Henrique Severiano-->
+<!--Vitor Encinas Negrão de Tulio-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forca</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Jogo da forca!</h1>
+    
+    <p>Palavra: <span id="word"></span></p>
+    <p>Tempo Restante: <span id="timer">30</span> segundos</p>
+    <p>Adivinhe uma letra:</p>
+    <input type="text" id="guess" maxlength="1">
+    <button id="submitGuess">Tentar</button>
+    
+    <p id="message"></p>
+    <button id="resetGame" style="display:none;">Jogar Novamente</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
