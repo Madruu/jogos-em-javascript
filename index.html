@@ -11,15 +11,18 @@
 </head>
 <body>
   <div class="game-container">
-    <h1>Jogo da forca!</h1>
+    <h1>Jogo da Forca!</h1>
     
     <p>Palavra: <span id="word"></span></p>
-    <p>Tempo Restante: <span id="timer">30</span> segundos</p>
-    <p>Adivinhe uma letra:</p>
+    <p>Tempo Restante: <span id="timer">45</span> segundos</p>
+    <p>Adivinhe uma letra ou a palavra inteira:</p>
     <input type="text" id="guess" maxlength="1">
-    <button id="submitGuess">Tentar</button>
+    <button id="submitGuess">Tentar Letra</button>
+    <input type="text" id="guessWord">
+    <button id="submitGuessWord">Tentar Palavra</button>
     
     <p id="message"></p>
+    <div id="letterPanel"></div>
     <button id="resetGame" style="display:none;">Jogar Novamente</button>
   </div>
 

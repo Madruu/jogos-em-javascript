@@ -1,41 +1,71 @@
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f8ff;
-  }
-  
-  .game-container {
-    text-align: center;
-    padding: 20px;
-    border: 2px solid #000;
-    background-color: #fff;
-    border-radius: 10px;
-  }
-  
-  #guess {
-    padding: 5px;
-    margin-top: 10px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    margin-top: 10px;
-    cursor: pointer;
-  }
-  
-  button:disabled {
-    background-color: #ddd;
-  }
-  
-  #message {
-    font-weight: bold;
-    margin-top: 20px;
-  }
-  
-  h1 {
-    color: #333;
-  }
-  
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f8ff;
+}
+
+.game-container {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #000;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#guess, #guessWord {
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #ddd;
+}
+
+#message {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+#letterPanel {
+  margin-top: 20px;
+}
+
+.letter {
+  display: inline-block;
+  padding: 5px;
+  margin: 3px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.letter.used {
+  background-color: #f44336;
+  color: white;
+}
